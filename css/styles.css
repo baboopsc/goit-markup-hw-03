@@ -1,0 +1,230 @@
+/* Genel Reset */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  background-color: #ffffff;
+}
+
+/* Header */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+  color: #2e2f42;
+}
+
+.logo-accent {
+  color: #4d5ae5;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #2e2f42;
+  font-weight: 500;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: #2e2f42;
+  font-size: 14px;
+}
+
+/* HERO */
+.hero {
+  background-color: #2e2f42;
+  color: #ffffff;
+  text-align: center;
+  padding: 120px 0;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  background-color: #4d5ae5;
+  color: white;
+  padding: 16px 32px;
+  border: none;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* FEATURES */
+.features {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 80px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.feature-card {
+  flex: 1 1 22%; /* 4 kart yanyana sığacak */
+  min-width: 200px;
+}
+
+.feature-card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.feature-card p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* OUR TEAM */
+.our-team {
+  background-color: #f4f4fd;
+  padding: 120px 80px;
+  text-align: center;
+}
+
+.our-team h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 72px;
+}
+
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.team-card {
+  width: 264px;
+  text-align: center;
+}
+
+.team-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.team-card h3 {
+  margin: 0 0 8px 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.team-card p {
+  margin: 0;
+  font-size: 16px;
+  color: #434455;
+}
+
+/* PORTFOLIO */
+.portfolio-section {
+  padding: 120px 80px;
+  text-align: center;
+}
+
+.portfolio-section h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 72px;
+}
+
+.portfolio-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.portfolio-card {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
+  overflow: hidden;
+  text-align: left;
+}
+
+.portfolio-card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.card-content h3 {
+  margin: 0 0 8px 0;
+  font-size: 20px;
+}
+
+.card-content p {
+  margin: 0;
+  font-size: 16px;
+  color: #434455;
+}
+
+/* FOOTER */
+footer {
+  background-color: #2e2f42;
+  color: #ffffff;
+  padding: 60px 80px;
+  text-align: center;
+}
+
+footer .logo {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+footer .logo-accent {
+  color: #4d5ae5;
+}
+
+footer p {
+  margin-top: 16px;
+  font-size: 16px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
+}
